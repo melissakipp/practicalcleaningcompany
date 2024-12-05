@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #0582CA;
+  --accent-color: #FDE74C;
+  --black: #000000;
+  --white: #F8F8F8;
+  --dark-mode: #202531;
+  --error: #E63462;
+  --success: #698F3F;
+  --warning: #f7b32b;
+  
+  --header-height: 10vh;
+}
+
+.playfair-name {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-global {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.dancing-script-deco {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+* {
+  font-family: "Open Sans", serif;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  padding: var(--header-height) 0 0 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Open Sans", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Open Sans", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Open Sans", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Open Sans", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: "Open Sans", serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+span {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+@media (max-width: 768px) {
+  .playfair-name {
+    font-size: 1.5rem;
+  }
+
+  .open-sans-global {
+    font-size: 1rem;
+  }
+
+  .dancing-script-deco {
+    font-size: 1.5rem;
+  }
+
+  small {
+    font-size: 0.6rem;
+  }
+}
