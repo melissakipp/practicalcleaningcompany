@@ -1,5 +1,7 @@
 # sv
 
+Started a new repo for Practical Cleaning Company
+
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
 ## Creating a project

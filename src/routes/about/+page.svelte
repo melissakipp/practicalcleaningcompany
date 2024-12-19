@@ -88,7 +88,7 @@
   }
 </style>
 
-<div class="about__container" class:about__container--visible={isVisible}>
+<article class="about__container" class:about__container--visible={isVisible}>
   <h1 class="about__title">About Practical Cleaning Company</h1>
   
   <div class="about__content">
@@ -132,4 +132,4 @@
       </ul>
     </div>
   </div>
-</div>
+</article>

@@ -61,7 +61,7 @@
             class:header__nav-link--active={currentPath === '/contact'}
             aria-current={currentPath === '/contact' ? 'page' : undefined}
           >
-            <i class="fas fa-envelope header__nav-icon" aria-hidden="true"></i>
+            <!-- <i class="fas fa-envelope header__nav-icon" aria-hidden="true"></i> -->
             <span class="header__nav-text">Contact</span>
           </a>
         </li>
@@ -72,7 +72,7 @@
             class:header__nav-link--active={currentPath === '/services'}
             aria-current={currentPath === '/services' ? 'page' : undefined}
           >
-            <i class="fas fa-broom header__nav-icon" aria-hidden="true"></i>
+            <!-- <i class="fas fa-broom header__nav-icon" aria-hidden="true"></i> -->
             <span class="header__nav-text">Services</span>
           </a>
         </li>
@@ -83,7 +83,7 @@
             class:header__nav-link--active={currentPath === '/faq'}
             aria-current={currentPath === '/faq' ? 'page' : undefined}
           >
-            <i class="fas fa-question-circle header__nav-icon" aria-hidden="true"></i>
+            <!-- <i class="fas fa-question-circle header__nav-icon" aria-hidden="true"></i> -->
             <span class="header__nav-text">FAQ</span>
           </a>
         </li>
@@ -94,7 +94,7 @@
             class:header__nav-link--active={currentPath === '/about'}
             aria-current={currentPath === '/about' ? 'page' : undefined}
           >
-            <i class="fas fa-info-circle header__nav-icon" aria-hidden="true"></i>
+            <!-- <i class="fas fa-info-circle header__nav-icon" aria-hidden="true"></i> -->
             <span class="header__nav-text">About</span>
           </a>
         </li>
